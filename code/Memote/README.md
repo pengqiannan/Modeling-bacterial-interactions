@@ -1,4 +1,4 @@
-# GSMM
+# Memote
 Codes and model data for genome-scale metabolic models of four individual species.
 
 Main file:
