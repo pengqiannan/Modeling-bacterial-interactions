@@ -1,5 +1,5 @@
 # pFBA
-A newly developed metabolic modeling pipeline, which could simulate the performances of different microbiomes.
+Codes for pFBA.
 
 
 Main function:
