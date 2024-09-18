@@ -1,8 +1,10 @@
 # data
 
-The model files in mat format and sbml format can be found in Modeling-bacterial-interactions/data.
+The model files in mat format can be found in  Modeling-bacterial-interactions/data/ModelInMatFormat.
 
-The memote evaluation files can be found in Modeling-bacterial-interactions/data.
+The model files in sbml format can be found in Modeling-bacterial-interactions/data/ModelInSBMLFormat.
+
+The memote evaluation files can be found in Modeling-bacterial-interactions/data/MemoteEvaluationFiles.
 
 
 
