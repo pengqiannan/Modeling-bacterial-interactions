@@ -1,0 +1,40 @@
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("dada2")
+library("dada2")
+path<-"E:\\DADA2"  
+fnFs<-sort(list.files(path,pattern="_1.fq",full.names=TRUE))    
+fnRs<-sort(list.files(path,pattern="_2.fq",full.names=TRUE))    
+sample.names<-sapply(strsplit(basename(fnFs),"\t"),'[',1) 
+plotQualityProfile(fnFs[1:2])
+plotQualityProfile(fnRs[1:2])
+filtFs<-file.path(path,"filtered",paste0(sample.names,"_F_filt.fq.gz"))
+filtRs<-file.path(path,"filtered",paste0(sample.names,"_R_filt.fq.gz"))  
+names(filtFs)<-sample.names
+names(filtRs)<-sample.names  
+out<- filterAndTrim(fnFs, filtFs, fnRs, filtRs, trimLeft=c(25,26),
+                     maxN=0, maxEE=c(2,2), truncQ=2, rm.phix=TRUE,
+                     compress=TRUE, multithread=FALSE) 
+head(out)
+errF <- learnErrors(filtFs, multithread=FALSE)
+errR <- learnErrors(filtRs, multithread=FALSE)
+dadaFs <- dada(filtFs, err=errF, multithread=FALSE)
+dadaRs <- dada(filtRs, err=errR, multithread=FALSE)
+mergers <- mergePairs(dadaFs, filtFs, dadaRs, filtRs, verbose=TRUE)
+head(mergers[[1]])
+seqtab <- makeSequenceTable(mergers)
+dim(seqtab)
+table(nchar(getSequences(seqtab)))
+seqtab2 <- seqtab[,nchar(colnames(seqtab)) %in% 220:280] 
+dim(seqtab2)
+seqtab2.nochim <- removeBimeraDenovo(seqtab, method="consensus", multithread=FALSE, verbose=TRUE)
+dim(seqtab2.nochim)
+sum(seqtab2.nochim)/sum(seqtab2)
+getN <- function(x) sum(getUniques(x))
+track <- cbind(out, sapply(dadaFs, getN), sapply(dadaRs, getN), sapply(mergers, getN), rowSums(seqtab2.nochim))
+colnames(track) <- c("input", "filtered", "denoisedF", "denoisedR", "merged", "nonchim")
+rownames(track) <- sample.names
+head(track)
+setwd("E:\\DADA2")
+write.table(track, "track.txt", sep="\t", quote=F, row.names = T)
+write.table(t(seqtab2.nochim), "dada2_counts.txt", sep="\t", quote=F, row.names = T)
