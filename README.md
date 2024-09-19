@@ -2,7 +2,7 @@
 
 Code availability
 -------
-The codes for pFBA, dFBA and memote evaluation can be found in Modeling-bacterial-interactions/code.
+The codes for pFBA, dFBA, memote evaluation and bacterial 16S rRNA gene amplicon sequencing analysi can be found in Modeling-bacterial-interactions/code.
 
 Data availability
 -------
