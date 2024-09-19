@@ -6,6 +6,7 @@ The codes for dFBA can be found in Modeling-bacterial-interactions/code/dFBA.
 
 The codes for memote evaluation can be found in Modeling-bacterial-interactions/code/Memote.
 
+The codes for bacterial 16S rRNA gene amplicon sequencing analysis can be found in Modeling-bacterial-interactions/code/DADA2.
 
 
 
