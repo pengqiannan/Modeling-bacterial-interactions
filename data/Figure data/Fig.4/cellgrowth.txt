@@ -1,0 +1,6 @@
+copy numbers	mono	EM	GEM
+P.gergoviae	1.95E+08	3.81E+08	1.68E+08
+V.alginolyticus	1.08E+08	1.77E+08	
+A.hydrophila	4.98E+07	8.57E+07	
+S.putrefaciens	6.01E+07	9.35E+07	
+P.gessardii	2.45E+08	2.68E+08	
