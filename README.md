@@ -10,6 +10,7 @@ The model files in mat format and sbml format can be found in Modeling-bacterial
 
 The memote evaluation files can be found in Modeling-bacterial-interactions/data.
 
+The raw data for generating the figures and the corresponding R code can be found in Modeling-bacterial-interactions/data/Figure data
 
 
 For more details, please download the file and locate the required file in the corresponding subfolder.  
