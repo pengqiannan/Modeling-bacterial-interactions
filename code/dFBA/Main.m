@@ -148,9 +148,6 @@ end
 
 
 
-
-
-
 %% plot data
 for stepNo = 1:50  
 timeVec(stepNo+1) = stepNo*timeStep;
@@ -161,34 +158,11 @@ plot(A(1,:))
 
 
 % clf
-% 
-% subplot(1,3,1);
-% plot(timeVec,biomassVec);
-% axis tight
-% title('Biomass');
-% subplot(1,3,2);
-% plot(timeVec,concentrationMatrix(IndexSecMets,:));
-% axis tight
-% legend(allSecMets);
-% subplot(2,3,1);
-% plot(timeVec,concentrationMatrix(IndexLigMets,:));
-% axis tight
-% legend(allLigMets);
-% 
-
-
-
-
-subplot(1,2,1)
-plot(biomassVec(:,2))
+biomassVec(:, end+1) = sum(biomassVec(:, 1:4), 2);
+plot(biomassVec(:,5))
 axis tight
 title('Biomass');
-legend('Strian-P');
-subplot(1,2,2)
-selected_rows = biomassVec(:,[1, 3, 4]);
-plot(selected_rows)
-axis tight
-title('Biomass');
-legend('Strian-A','Strian-S' ,'Strian-V');
+legend('PVAS');
+
 
 
