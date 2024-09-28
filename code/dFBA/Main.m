@@ -17,7 +17,7 @@ allRxns=allSimuRxns;
 [StrainModel,SecRatioVec]=addSecBioRatio(StrainModel,allMets,allRxns,strainNames,r);
 
 %the dry weight of bacteria added to each 100ml system is
-% 0.236mg (P), 0.229mg (V), 0.214mg (A), 0.210mg ( S)
+% 0.236mg (P), 0.229mg (V), 0.214mg (A), 0.210mg (S)
 
 Ratio(1,:)=[0.214 0.236 0.210 0.229]; % r=1 % Ratio : P:S:V:A=1:1:1:1 
 Ratio(2,:)=[0.00214 0.236 0.0021 0.00229]; % r=2 % Ratio : P:S:V:A=100:1:1:1 
