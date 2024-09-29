@@ -8,4 +8,4 @@
 
 - The raw data and corresponding R code for generating the figures (Fig.1 to Fig.4) can be found in Modeling-bacterial-interactions/data/FigureData.
 
-For more details, please download the file and locate the required file in the corresponding subfolder.  
+  For more details, please download the file and locate the required file in the corresponding subfolder.  
