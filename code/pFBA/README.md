@@ -9,7 +9,7 @@ LDmain:  simulate the growth of the combinations of models, and find exchange fl
 
 Input parameters: 
 
-scenarioID, PercentOfSpeciesBio, syntheticCell, filenames, speciesToConsider, CNsourcesName, CNsourcesNumber, mmMedium, directory, compoundtest.
+scenarioID, PercentOfSpeciesBio, filenames, speciesToConsider, CNsourcesName, CNsourcesNumber, mmMedium, directory, compoundtest.
 
 
 Other functions：
