@@ -14,8 +14,6 @@ scenarioID, PercentOfSpeciesBio, syntheticCell, filenames, speciesToConsider, CN
 
 Other functions：
 
-[For MultiSpecies]
-
 validateModel: Validate models to standard format.
 
 convertToIrreversibleModel: Convert models to irreversible models.
@@ -30,11 +28,4 @@ GetMultiSpeciesModel: Based on GetAllCombination results, merge species into mod
 
 performLD: Perform LD under different media.
 
-[For syntheticCell]
-
-combineTwoModel: Combination of base models and another selected model. 
-
-getEssensialReaction: Find the essensial reactions that in Rxnlist based on combineTwoModel results.
-
-getImportantRxn: Find the important reactions that could increase the biomass of the species.
 
