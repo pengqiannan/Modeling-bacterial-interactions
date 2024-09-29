@@ -1,3 +1,3 @@
 # MemoteEvaluationFiles
-Memote evaluation files for the four species.
+- Memote evaluation files for the four species.
 
