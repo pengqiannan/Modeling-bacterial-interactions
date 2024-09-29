@@ -1,2 +1,2 @@
 # Memote
-Codes for memote evaluation.
+- Codes for memote evaluation.
