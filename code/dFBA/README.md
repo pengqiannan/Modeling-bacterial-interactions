@@ -39,7 +39,7 @@ M2SMatrixUB：Generate a matrix of upper bound values for constrained reactions 
 
 PreSetBound：Predefine the upper and lower bounds for reaction boundaries.
 
-addSecBioRatio：Fix the ratio of the secretion rate to the maximum growth rate, which is calculated from the results of pFBA(use: fastSecRatio.m).
+addSecBioRatio：Fix the ratio of the secretion rate to the maximum growth rate, which is calculated from the results of pFBA (use: fastSecRatio.m).
 
 fastSecRatio：Calculate the ratio of secretion reactions to the maximum growth rate in pFBA.
 
