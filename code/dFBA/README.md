@@ -45,9 +45,9 @@ This project focuses on metabolic network modelling and optimization, utilizing 
 
 ### Dependencies
 
-- MATLAB Version: R2020b or later
+- MATLAB Version: R2020b or later.
 
 - Required MATLAB Toolboxes:COBRA Toolbox .
 
-- Solver: 'gurobi' or 'ibm_cplex'
+- Solver: 'gurobi' or 'ibm_cplex'.
 
