@@ -1,5 +1,5 @@
 # pFBA
-## Codes for pFBA.
+## Codes for pFBA
 
 
 ### Main function:
