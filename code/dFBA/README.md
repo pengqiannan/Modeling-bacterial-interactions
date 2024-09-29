@@ -6,7 +6,7 @@ This project focuses on metabolic network modelling and optimization, utilizing 
 ### Main function:
 
 - main:  The main script serves as the entry point for running the project, invoking other functions for simulation and analysis.
-
+`Main.m`
 
 ### Input data:
 
