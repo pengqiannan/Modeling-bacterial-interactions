@@ -1,6 +1,7 @@
 # dFBA
 Codes for dFBA.
 
+This project focuses on metabolic network modelling and optimization, utilizing MATLAB scripts to simulate the interaction states and growth conditions of multiple strains.
 
 Main function:
 
