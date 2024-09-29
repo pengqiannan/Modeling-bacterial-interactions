@@ -1,2 +1,2 @@
 # ModelInMatFormat
-The model files in mat format.
+- The model files in mat format.
