@@ -28,4 +28,7 @@ GetMultiSpeciesModel: Based on GetAllCombination results, merge species into mod
 
 performLD: Perform LD under different media.
 
-
+### Dependencies
+- MATLAB Version: R2020b or later
+- Required MATLAB Toolboxes:
+  - COBRA Toolbox . Solver: 'gurobi' or 'ibm_cplex'
