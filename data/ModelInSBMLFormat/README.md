@@ -1,3 +1,3 @@
 # ModelInSBMLFormat
-The model files in sbml format.
+- The model files in sbml format.
 
