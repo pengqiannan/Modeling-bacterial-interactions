@@ -30,7 +30,8 @@
 
 ### Dependencies
 
-- MATLAB Version: R2020b or later
+- MATLAB Version: R2020b or later.
 
-- Required MATLAB Toolboxes: COBRA Toolbox .
-- Solver: 'gurobi' or 'ibm_cplex'
+- Required MATLAB Toolboxes: COBRA Toolbox.
+  
+- Solver: 'gurobi' or 'ibm_cplex'.
