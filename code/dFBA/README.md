@@ -18,7 +18,7 @@ StrainModel：MAT file of the microbial strain model.
 
 pFBA01：pFBA simulation results (Ratio : P:S:V:A=1:1:1:1 ).
 
-pFBA100：pFBA simulation results (:Ratio : P:S:V:A=100:1:1:1 ).
+pFBA100：pFBA simulation results (Ratio : P:S:V:A=100:1:1:1 ).
 
 
 Other functions：
