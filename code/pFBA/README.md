@@ -4,7 +4,7 @@
 
 ### Main function:
 
-- `LDmain:  simulate the growth of the combinations of models, and find exchange fluxes based on the combination.
+- `LDmain.m`:  simulate the growth of the combinations of models, and find exchange fluxes based on the combination.
 
 
 ### Input parameters: 
