@@ -1,14 +1,14 @@
 # dFBA
-Codes for dFBA.
+## Codes for dFBA.
 
 This project focuses on metabolic network modelling and optimization, utilizing MATLAB scripts to simulate the interaction states and growth conditions of multiple strains.
 
-Main function:
+### Main function:
 
 main:  The main script serves as the entry point for running the project, invoking other functions for simulation and analysis.
 
 
-Input data:
+### Input data:
 
 CsourcesMets：Data file containing carbon source metabolites.
 
@@ -21,7 +21,7 @@ pFBA01：pFBA simulation results (Ratio : P:S:V:A=1:1:1:1 ).
 pFBA100：pFBA simulation results (Ratio : P:S:V:A=100:1:1:1 ).
 
 
-Other functions：
+### Other functions：
 
 CalculateGrowthR：Perform FBA operations on all strain models, and ultimately output a vector containing the maximum growth rates for each model.
 
