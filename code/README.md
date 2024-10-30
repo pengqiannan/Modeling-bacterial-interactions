@@ -9,6 +9,6 @@
 **dFBA**：Dynamic flux balance analysis. Focuses on metabolic network modelling and optimisation, simulating interaction states and growth conditions of multiple strains.
 
 
-  Each directory contains a README file detailing how to reproduce the data analysis using the appropriate code.
+- Each directory contains a README file detailing how to reproduce the data analysis using the appropriate code.
 
-  For more details, please download the file and locate the required file in the corresponding subfolder.
+- For more details, please download the file and locate the required file in the corresponding subfolder.
