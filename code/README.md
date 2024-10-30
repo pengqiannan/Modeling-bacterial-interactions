@@ -1,6 +1,6 @@
 # code
 
-*DADA2*：Bacterial 16S rRNA gene amplicon sequencing analysis. The end product is an amplicon sequence variant (ASV) table.
+_DADA2_：Bacterial 16S rRNA gene amplicon sequencing analysis. The end product is an amplicon sequence variant (ASV) table.
 
 *Memote*：Evaluate the quality of models by the metabolic model testing suite (MEMOTE)
 
