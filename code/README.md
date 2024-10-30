@@ -1,14 +1,14 @@
 # code
 
-- The codes for pFBA can be found in Modeling-bacterial-interactions/code/pFBA.
+*DADA2*：Bacterial 16S rRNA gene amplicon sequencing analysis. The end product is an amplicon sequence variant (ASV) table.
 
-- The codes for dFBA can be found in Modeling-bacterial-interactions/code/dFBA.
+*Memote*：Evaluate the quality of models by the metabolic model testing suite (MEMOTE)
 
-- The codes for memote evaluation can be found in Modeling-bacterial-interactions/code/Memote.
+*pFBA*：Parsimonious flux balance analysis. Simulate the growth of the combinations of models, and find exchange fluxes based on the combination.
 
-- The codes for bacterial 16S rRNA gene amplicon sequencing analysis can be found in Modeling-bacterial-interactions/code/DADA2.
-
-
+*dFBA*：Dynamic flux balance analysis. Focuses on metabolic network modelling and optimisation, simulating interaction states and growth conditions of multiple strains.
 
 
-  For more details, please download the file and locate the required file in the corresponding subfolder.  
+  Each directory contains a README file detailing how to reproduce the data analysis using the appropriate code.
+
+  For more details, please download the file and locate the required file in the corresponding subfolder.
