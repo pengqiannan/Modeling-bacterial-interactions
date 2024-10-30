@@ -9,7 +9,7 @@ pip install memote
 
 ### Main function
 
-- `memote.py`:  Evaluate the quality of each model.
+- `memote.py`:  Evaluate the quality of models by the metabolic model testing suite (MEMOTE).
 
 ### Input parameters
 - `--filename`: output filename 
