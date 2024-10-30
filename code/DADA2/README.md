@@ -15,6 +15,10 @@ BiocManager::install("dada2")
 - `DADA2.R`: For bacterial 16S rRNA gene amplicon sequencing analysis.
 
 
+### Documentation
+[DADA2 Pipeline Tutorial](https://benjjneb.github.io/dada2/tutorial.html)
+
+
 ### References
 
 - Callahan, B., McMurdie, P., Rosen, M. et al. DADA2: High-resolution sample inference from Illumina amplicon data. Nat Methods 13, 581–583 (2016). https://doi.org/10.1038/nmeth.3869
