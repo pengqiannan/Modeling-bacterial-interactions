@@ -1,11 +1,11 @@
 # data
 
-- The model files in mat format can be found in  Modeling-bacterial-interactions/data/ModelInMatFormat.
+- **ModelInMatFormat**: The model files in mat format.
 
-- The model files in sbml format can be found in Modeling-bacterial-interactions/data/ModelInSBMLFormat.
+- **ModelInSBMLFormat**: The model files in sbml format.
 
-- The memote evaluation files can be found in Modeling-bacterial-interactions/data/MemoteEvaluationFiles.
+- **MemoteEvaluationFiles**: The memote evaluation files.
 
-- The raw data and corresponding R code for generating the figures (Fig.1 to Fig.4) can be found in Modeling-bacterial-interactions/data/FigureData.
+- **Modeling-bacterial-interactions/data/FigureData**: The raw data and corresponding R code for generating the figures (Fig.1 to Fig.4) in the manuscript. 
 
-  For more details, please download the file and locate the required file in the corresponding subfolder.  
+  For more details, please download the file and locate the required file in the corresponding subfolder.
