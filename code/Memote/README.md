@@ -7,7 +7,7 @@
 pip install memote
 ```
 
-### Main function:
+### Main function
 
 - `memote.py`:  Evaluate the quality of each model.
 
@@ -15,7 +15,7 @@ pip install memote
 - `--filename`: output filename 
 
 
-### Other functions：
+### Other functions
 
 - `readCbModel.m`: Reads in a constraint-based model.
 
