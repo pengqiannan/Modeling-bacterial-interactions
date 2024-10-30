@@ -15,6 +15,10 @@ pip install memote
 - `--filename`: output filename 
 
 
+### Documentation
+[memote - the genome-scale metabolic model test suite](https://memote.readthedocs.io/)
+
+
 ### Other functions
 
 - `readCbModel.m`: Reads in a constraint-based model.
