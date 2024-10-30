@@ -2,9 +2,16 @@
 ## Codes for memote
 
 
+### Installation
+pip install memote
+
+
 ### Main function:
 
 - `memote.py`:  Evaluate the quality of each model.
+
+### Input parameters
+--filename  output filename 
 
 
 ### Other functions：
