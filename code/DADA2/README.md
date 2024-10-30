@@ -2,17 +2,18 @@
 ## Codes for DADA2
 
 
-### Main function:
-
-- `DADA2.R`: For bacterial 16S rRNA gene amplicon sequencing analysis.
-
-
 ### Installation
 ```
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install("dada2")
 ```
+
+
+### Main function:
+
+- `DADA2.R`: For bacterial 16S rRNA gene amplicon sequencing analysis.
+
 
 ### References
 
