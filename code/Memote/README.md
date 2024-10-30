@@ -1,4 +1,4 @@
-# Memote
+# memote
 ## Codes for memote
 
 
