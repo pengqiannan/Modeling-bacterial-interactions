@@ -6,6 +6,6 @@
 
 - **MemoteEvaluationFiles**: The memote evaluation files.
 
-- **Modeling-bacterial-interactions/data/FigureData**: The raw data and corresponding R code for generating the figures (Fig.1 to Fig.4) in the manuscript. 
+- **FigureData**: The raw data and corresponding R code for generating the figures (Fig.1 to Fig.4) in the manuscript. 
 
   For more details, please download the file and locate the required file in the corresponding subfolder.
