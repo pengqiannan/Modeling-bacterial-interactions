@@ -7,10 +7,6 @@
 - `DADA2.R`: For bacterial 16S rRNA gene amplicon sequencing analysis.
 
 
-### input parameters
-- `path`: 
-
-
 ### Installation
 ```
 if (!require("BiocManager", quietly = TRUE))
