@@ -10,7 +10,7 @@ BiocManager::install("dada2")
 ```
 
 
-### Main function:
+### Main function
 
 - `DADA2.R`: Bacterial 16S rRNA gene amplicon sequencing analysis. The end product is an amplicon sequence variant (ASV) table.
 
