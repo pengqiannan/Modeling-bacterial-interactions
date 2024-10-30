@@ -4,7 +4,7 @@
 
 ### Main function:
 
-- `memote.py`:  evaluate the quality of each model.
+- `memote.py`:  Evaluate the quality of each model.
 
 
 ### Other functions：
