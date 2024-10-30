@@ -2,17 +2,17 @@
 
 
 
-### Main function:
+### Main function
 
 - `LDmain.m`:  Simulate the growth of the combinations of models, and find exchange fluxes based on the combination.
 
 
-### Input parameters: 
+### Input parameters
 
 - scenarioID, PercentOfSpeciesBio, filenames, speciesToConsider, CNsourcesName, CNsourcesNumber, mmMedium, directory, compoundtest.
 
 
-### Other functions：
+### Other functions
 
 - `validateModel.m`: Validate models to standard format.
 
