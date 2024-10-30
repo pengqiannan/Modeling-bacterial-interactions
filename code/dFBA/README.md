@@ -3,12 +3,12 @@
 
 This project focuses on metabolic network modelling and optimization, utilizing MATLAB scripts to simulate the interaction states and growth conditions of multiple strains.
 
-### Main function:
+### Main function
 
 - `Main.m`:  The main script serves as the entry point for running the project, invoking other functions for simulation and analysis.
 
 
-### Input data:
+### Input data
 
 - `CsourcesMets.mat`：Data file containing carbon source metabolites.
 
@@ -21,7 +21,7 @@ This project focuses on metabolic network modelling and optimization, utilizing 
 - `pFBA100.mat`：pFBA simulation results (Ratio : P:S:V:A=100:1:1:1 ).
 
 
-### Other functions：
+### Other functions
 
 - `CalculateGrowthR.m`：Perform FBA operations on all strain models, and ultimately output a vector containing the maximum growth rates for each model.
 
