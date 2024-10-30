@@ -4,6 +4,8 @@ Code availability
 -------
 - The codes for pFBA, dFBA, Memote and DADA2 R can be found in Modeling-bacterial-interactions/code.
 
+- Each subfolder contains a README file detailing how to reproduce the data analysis using the corresponding code.
+
 Data availability
 -------
 - The model files in mat format can be found in Modeling-bacterial-interactions/data/ModelInMatFormat.
