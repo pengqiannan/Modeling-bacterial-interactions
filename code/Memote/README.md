@@ -16,7 +16,7 @@ pip install memote
 
 
 ### Documentation
-[memote - the genome-scale metabolic model test suite](https://memote.readthedocs.io/)
+[memote - the genome-scale metabolic model test suite] (https://memote.readthedocs.io/)
 
 
 ### Other functions
