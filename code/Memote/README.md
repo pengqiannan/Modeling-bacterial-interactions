@@ -3,6 +3,7 @@
 
 
 ### Installation
+```
 pip install memote
 
 
@@ -11,7 +12,7 @@ pip install memote
 - `memote.py`:  Evaluate the quality of each model.
 
 ### Input parameters
---filename    output filename 
+- `--filename`: output filename 
 
 
 ### Other functions：
