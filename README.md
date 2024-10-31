@@ -13,7 +13,7 @@ The codes for DADA2, Memote, pFBA and dFBA can be found in the `Modeling-bacteri
 - **dFBA**: Dynamic flux balance analysis. Simulate interaction states and growth conditions of multiple strains.
 
 
-Note: Each subfolder contains a README file detailing how to reproduce the data analysis using the appropriate code.				
+Each subfolder contains a README file detailing how to reproduce the data analysis using the appropriate code.				
   
 
 Data availability
