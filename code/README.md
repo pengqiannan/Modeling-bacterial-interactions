@@ -9,7 +9,8 @@
 - **dFBA**: Dynamic flux balance analysis. Simulate interaction states and growth conditions of multiple strains.
 
 
-
+---
+</span> 
 
   Each directory contains a README file detailing how to reproduce the data analysis using the appropriate code.				
   
