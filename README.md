@@ -2,7 +2,7 @@
 
 Code availability
 -------
-The codes for DADA2, Memote, pFBA and dFBA can be found in the `Modeling-bacterial-interactions/code` directory
+The codes for DADA2, Memote, pFBA and dFBA can be found in the `Modeling-bacterial-interactions/code` directory.
 
 - **DADA2**: R scripts for processing 16S rRNA gene sequences.
 
@@ -18,7 +18,7 @@ Each subfolder contains a README file detailing how to reproduce the data analys
 
 Data availability
 -------
-The model files, memote evaluation files and raw data for generating the figures (Fig.1 to Fig.4) can be found in the `Modeling-bacterial-interactions/data` directory
+The model files, memote evaluation files and raw data for generating the figures (Fig.1 to Fig.4) can be found in the `Modeling-bacterial-interactions/data` directory.
 
 - **ModelInMatFormat**: The model files in mat format.
 
