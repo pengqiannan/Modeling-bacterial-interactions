@@ -2,7 +2,7 @@
 
 - **DADA2**: R scripts for processing 16S rRNA gene sequences.
 
-- **Memote**: Evaluate the quality of models by the metabolic model testing suite (MEMOTE).
+- **Memote**: Models were converted from xls format to sbml format for memote analysis.
 
 - **pFBA**: Parsimonious flux balance analysis. Simulate the growth of model combinations and find the exchange fluxes.
 
