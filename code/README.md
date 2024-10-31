@@ -4,9 +4,9 @@
 
 - **Memote**: Evaluate the quality of models by the metabolic model testing suite (MEMOTE).
 
-- **pFBA**: Parsimonious flux balance analysis. Simulate the growth of the combinations of models, and find exchange fluxes based on the combination.
+- **pFBA**: Parsimonious flux balance analysis. Simulate the growth of model combinations and find the exchange fluxes.n.
 
-- **dFBA**: Dynamic flux balance analysis. Simulating interaction states and growth conditions of multiple strains.
+- **dFBA**: Dynamic flux balance analysis. Simulate interaction states and growth conditions of multiple strains.
 
 
 
