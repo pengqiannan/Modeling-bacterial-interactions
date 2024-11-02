@@ -21,7 +21,7 @@ pip install memote
 
 ### Other functions
 
-- `excel2SBML.m`: Convert models from excel to SBML format.
+- `excel2SBML.m`: Convert models from excel format to SBML format.
 
 - `getDatabaseMappings_update.m`: Return information on known mappings of database entries to model field names, along with additional information about the  fields.
 
