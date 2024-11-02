@@ -23,11 +23,11 @@ pip install memote
 
 - `excel2SBML.m`: Convert models from excel format to SBML format.
 
-- `getDatabaseMappings_update.m`: Return information on known mappings of database entries to model field names, along with additional information about the  fields.
+- `getDatabaseMappings.m`: Return information on known mappings of database entries to model field names, along with additional information about the  fields.
 
-- `makeSBMLAnnotationString_updata.m`: Give the annotationString for an SBML based on the fields in the model.
+- `makeSBMLAnnotationString.m`: Give the annotationString for an SBML based on the fields in the model.
 
-- `writeSBML_update.m`: Export a COBRA structure into an SBML FBCv2 file. 
+- `writeSBML.m`: Export a COBRA structure into an SBML FBCv2 file. 
 
 
 
