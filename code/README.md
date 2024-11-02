@@ -2,7 +2,7 @@
 
 - **DADA2**: R scripts for processing 16S rRNA gene sequences.
 
-- **Memote**: Models were converted from xls format to sbml format for memote analysis.
+- **Memote**: Models were converted from excel format to SBML format for memote analysis.
 
 - **pFBA**: Parsimonious flux balance analysis. Simulate the growth of model combinations and find the exchange fluxes.
 
