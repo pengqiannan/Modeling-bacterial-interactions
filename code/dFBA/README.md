@@ -16,7 +16,7 @@ This project focuses on metabolic network modelling and optimization, utilizing 
 
 - `StrainModel.mat`：MAT file of the microbial strain model.
 
-- `pFBA01.mat`：pFBA simulation results (Ratio : P:S:V:A=1:1:1:1 ).
+- `pFBA01.mat`：pFBA simulation results (Ratio : P:S:V:A=100:100:100:100 ).
 
 - `pFBA100.mat`：pFBA simulation results (Ratio : P:S:V:A=100:1:1:1 ).
 
