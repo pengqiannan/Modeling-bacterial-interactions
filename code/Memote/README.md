@@ -13,7 +13,7 @@ pip install memote
 
 ### Input parameters
 - `--filename`: output filename 
-
+- `path/to/model.xml`: path to model (SBML format)
 
 ### Documentation
 [The genome-scale metabolic model test suite](https://memote.readthedocs.io/)
