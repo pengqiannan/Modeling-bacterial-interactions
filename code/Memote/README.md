@@ -8,7 +8,7 @@ pip install memote
 ```
 
 ### Main function
-
+- `excel2SBML.m`: Convert models from excel format to SBML format.
 - `memote.py`:  Evaluate the quality of models by the metabolic model testing suite (MEMOTE).
 
 ### Input parameters
@@ -20,8 +20,6 @@ pip install memote
 
 
 ### Other functions
-
-- `excel2SBML.m`: Convert models from excel format to SBML format.
 
 - `getDatabaseMappings.m`: Return information on known mappings of database entries to model field names, along with additional information about the  fields.
 
