@@ -12,8 +12,8 @@ pip install memote
 - `memote.py`:  Evaluate the quality of models by the metabolic model testing suite (MEMOTE).
 
 ### Input parameters
-- `--filename`: output filename 
 - `path/to/model.xml`: path to model (SBML format)
+- `--filename`: output filename 
 
 ### Documentation
 [The genome-scale metabolic model test suite](https://memote.readthedocs.io/)
