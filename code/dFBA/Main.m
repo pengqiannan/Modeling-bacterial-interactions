@@ -8,7 +8,7 @@ StrainModel=PreSetBound(StrainModel,strainNames,InorgRxns,allSimuRxns);
 MU=CalculateGrowthR(StrainModel)
 
 r=1;       % Choose two ratios of initial cell concentrations
-% r=1 indicate Ratio : P:S:V:A=1:1:1:1 ; r=2 indicate Ratio : P:S:V:A=100:1:1:1 
+% r=1 indicate Ratio : P:S:V:A=100:100:100:100 ; r=2 indicate Ratio : P:S:V:A=100:1:1:1 
 
 allMets=allSimuMets;
 allRxns=allSimuRxns;
@@ -19,7 +19,7 @@ allRxns=allSimuRxns;
 %the dry weight of bacteria added to each 100ml system is
 % 0.236mg (P), 0.229mg (V), 0.214mg (A), 0.210mg (S)
 
-Ratio(1,:)=[0.214 0.236 0.210 0.229]; % r=1 % Ratio : P:S:V:A=1:1:1:1 
+Ratio(1,:)=[0.214 0.236 0.210 0.229]; % r=1 % Ratio : P:S:V:A=100:100:100:100 
 Ratio(2,:)=[0.00214 0.236 0.0021 0.00229]; % r=2 % Ratio : P:S:V:A=100:1:1:1 
 
 %% Initialize biomass
