@@ -5,10 +5,19 @@ load('StrainModel.mat');
 strainNames = {'A', 'P', 'S', 'V'};
 ClassRxnsMetsList;
 StrainModel=PreSetBound(StrainModel,strainNames,InorgRxns,allSimuRxns);
-MU=CalculateGrowthR(StrainModel)
+MU=CalculateGrowthR(StrainModel);
 
-r=1;       % Choose two ratios of initial cell concentrations
+% Choose two ratios of initial cell concentrations
 % r=1 indicate Ratio : P:S:V:A=100:100:100:100 ; r=2 indicate Ratio : P:S:V:A=100:1:1:1 
+
+r = 2;
+if r == 1
+    fprintf('r=%d indicate Ratio : P:S:V:A=100:100:100:100 ;\n', r);
+elseif r == 2
+    fprintf('r=%d indicate Ratio : P:S:V:A=100:1:1:1 ;\n', r);
+else
+    fprintf('The value of r does not meet the expected judgment conditions.\n');
+end
 
 allMets=allSimuMets;
 allRxns=allSimuRxns;
@@ -89,9 +98,13 @@ for m=1:length(allMets)
         %% to be a secreted metabolite : Cross feed and Lignin is not included
     if matrixAll_pFBA(m,n)>0 && any(contains(model.rxns, temprxns)) == 1 
     SecRxn=temprxns;    
-    [SecRatio ,~]=fastSecRatio(Name,tempmets,n,r);%     SecFlux=GrowthR(n)*SecRatio;
+    [SecRatio ,~]=fastSecRatio(Name,tempmets,n,r);%     
+    SecFlux=GrowthR(n)*SecRatio;
      % update concentrations   
-    tempPoolCon(m,n)=tempPoolCon(m,n) + SecRatio*deltaBiomass(n);% SecreteFlux>0
+     
+%     tempPoolCon(m,n)=tempPoolCon(m,n) + SecRatio*deltaBiomass(n);% SecreteFlux>0
+    
+    tempPoolCon(m,n)=tempPoolCon(m,n) + SecFlux*Newbiomass(n)*timeStep;% SecreteFlux>0
     CommPoolCon(CommPoolCon<0)=0; 
     end
     %% uptake metabolite 
@@ -100,7 +113,8 @@ for m=1:length(allMets)
         SingleBio=Newbiomass(n);
         SumBio=dot( Newbiomass',US_Matrix(m,:));
         uptRatio=SingleBio/(SumBio^2);    
-        UptFlux =  (tempPoolCon(m,n)*uptRatio)/(timeStep);    % UptFlux>0
+%       UptFlux =  (tempPoolCon(m,n)*uptRatio)/(timeStep);    % UptFlux>0
+        UptFlux =  (tempPoolCon(m,n))/(SumBio*timeStep);
         % UptFlux(abs(UptFlux) < 1e-9) =  0.0001;
         UptFlux(UptFlux > 100) = 100;    
         % update rxns bound  
@@ -110,7 +124,11 @@ for m=1:length(allMets)
          if GrowthR(1,n)==0
         tempPoolCon(m,n)=tempPoolCon(m,n);  % UptFlux<0
          else
-        tempPoolCon(m,n)=tempPoolCon(m,n) - UptFlux/GrowthR(1,n)*deltaBiomass(n);                
+             
+%         tempPoolCon(m,n)=tempPoolCon(m,n) - UptFlux/GrowthR(1,n)*deltaBiomass(n);  
+
+        tempPoolCon(m,n)=tempPoolCon(m,n) - UptFlux*timeStep*SingleBio;
+        
          end
         tempPoolCon(tempPoolCon<0)=0;
     end       
@@ -146,7 +164,7 @@ concentrationMatrix(:,end+1) = sparse(CommPoolCon);
 end
 
 
-
+ 
 
 %% plot data
 for stepNo = 1:50  
@@ -163,6 +181,3 @@ plot(biomassVec(:,5))
 axis tight
 title('Biomass');
 legend('PVAS');
-
-
-
